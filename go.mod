@@ -1,9 +1,9 @@
 module github.com/rancher/wharfie
 
-go 1.24.6
+go 1.25.0
 
 replace (
-	github.com/rancher/dynamiclistener => github.com/swastik959/dynamiclistener v0.0.0-20250908091333-5dc048dc0ba0
+	github.com/rancher/dynamiclistener => github.com/swastik959/dynamiclistener v0.0.0-20250923111444-6a61ff111a8d
 	k8s.io/api => github.com/k3s-io/kubernetes/staging/src/k8s.io/api v1.34.0-k3s1
 	k8s.io/apiextensions-apiserver => github.com/k3s-io/kubernetes/staging/src/k8s.io/apiextensions-apiserver v1.34.0-k3s1
 	k8s.io/apimachinery => github.com/k3s-io/kubernetes/staging/src/k8s.io/apimachinery v1.34.0-k3s1
@@ -46,9 +46,9 @@ require (
 	github.com/urfave/cli/v2 v2.27.5
 	go.uber.org/multierr v1.11.0
 	gopkg.in/yaml.v2 v2.4.0
-	k8s.io/api v0.34.0
+	k8s.io/api v0.34.1
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/kubernetes v1.34.0
+	k8s.io/kubernetes v1.34.1
 )
 
 require (
@@ -74,7 +74,7 @@ require (
 	github.com/frankban/quicktest v1.12.1 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.9.0 // indirect
-	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.21.0 // indirect
@@ -145,9 +145,9 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/apiextensions-apiserver v0.34.0 // indirect
-	k8s.io/apimachinery v0.34.0 // indirect
+	k8s.io/apimachinery v0.34.1 // indirect
 	k8s.io/apiserver v0.34.0 // indirect
-	k8s.io/client-go v0.34.0 // indirect
+	k8s.io/client-go v0.34.1 // indirect
 	k8s.io/cloud-provider v0.34.0 // indirect
 	k8s.io/component-base v0.34.0 // indirect
 	k8s.io/component-helpers v0.0.0 // indirect
